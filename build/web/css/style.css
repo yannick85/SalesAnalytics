@@ -1,0 +1,120 @@
+.box {
+    margin: 0 0 40px;
+    position: relative;
+    width: 100%;
+    border-radius: 4px 4px 4px 4px;
+}
+.box > .box-header {
+    border: 1px solid #CDCDCD;
+    display: block;
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 10px 20px;
+    background: linear-gradient(to bottom, #FFFFFF 0%, #F1F1F1 100%) repeat scroll 0 0 transparent;
+}
+.box > .box-body {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("../img/noise.png") repeat scroll 0 0 #FFFFFF;
+    border-color: -moz-use-text-color #CDCDCD #CDCDCD;
+    border-image: none;
+    border-right: 1px solid #CDCDCD;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+    display: block;
+    padding: 10px 20px;
+    position: relative;
+}
+
+body{
+    margin: 0px;
+}
+
+header.header{
+    padding: 10px 25px;
+    background: url("../img/bg-body-bar.jpg");
+    border-bottom: 1px solid #2E2E2E;
+    display: block;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 999;
+}
+header.header h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size:48px;
+    color: #E20613;
+}
+
+#logout_link {
+    float: right;
+    margin-right: 40px;
+}
+
+#api_links {
+    float: left;
+    z-index: 99999;
+}
+#api_links > a{
+    font-size: 26px;
+    border: 2px solid #FFFFFF;
+    padding: 3px;
+    background: #DDD;
+    margin: 2px;
+    border-radius: 5px;
+}
+#api_links ul {
+    
+}
+
+section.section {
+}
+
+.section #filter_wrapper{
+    padding: 5px 15px;
+    background: #EFEFEF;
+    border-bottom: 1px solid #CDCDCD;
+    position: fixed;
+    height: 100px;
+    top: 81px;
+    width: 100%;
+    z-index: 950;
+}
+.section #filter_wrapper form{
+    margin : 0px;
+}
+.section #filter_wrapper #filter_title_wrapper{
+    text-align: center;
+}
+
+.section #filter_wrapper #filter_title{
+    display: inline-block;
+}
+
+.section #filter_wrapper #filter_title input{
+    font-size: 32px;
+    color: #18A8B7;
+    margin: 5px;
+}
+
+.section #filters_wrapper{
+    margin: 5px;
+}
+
+.section #filters_wrapper > div{
+    text-align: center;
+}
+.section #filters_wrapper > div .active{
+    color: red !important;
+    font-weight: bold;
+}
+
+
+.section #content_wrapper {
+    margin: 210px 15px 15px;
+    z-index: 99;
+}
